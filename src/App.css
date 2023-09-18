@@ -1,0 +1,67 @@
+/* ALL */
+@font-face {font-family: 'Pretendard-Regular';src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');font-weight: 400;font-style: normal;}
+*{margin: 0; padding: 0; font-family: 'Pretendard-Regular'; box-sizing: border-box; list-style: none; text-decoration: none;}
+a{color: #333;}
+.w1200{width: 1200px; margin: 0 auto;}.w800 {width: 800px; margin: 0 auto;}
+button{padding: 10px 30px; cursor: pointer; appearance: none; border: none; color: white; background-color: #333;}
+input:focus, textarea:focus, select:focus{outline: none;} textarea{resize: none;}
+body::-webkit-scrollbar {display: none;}
+body {-ms-overflow-style: none;scrollbar-width: none;}
+  
+/* Header */
+header{padding: 0 250px; height: 130px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0px 2px 2px #ddd; margin-bottom: 50px;}
+nav{width: 800px;}
+nav>ul{display: flex;}
+nav>ul>li{padding: 0 20px; }
+nav>ul>li:not(:last-of-type){border-right: 1px solid black; }
+nav>ul>li>a{padding: 10px 30px; font-size: 18px;}
+/* Main */
+.Main>h1{margin-bottom: 50px; text-align: center;}
+/* Search */
+.Search{margin-bottom: 20px; justify-content: space-between;}
+.SearchInput{display: flex;}
+.Search input{font-size: 32px; width: 100%; height: 100%; appearance: none; outline: none; border: none; }
+.Search button{font-size: 32px; }
+.SearchinputWrap{flex: 6;}
+.SearchinputWrap::after{display:block;content:'';border-bottom:solid 2px #888;transform:scaleX(0)translateY(-2px);transform-origin:0% 50%;}
+.SearchinputWrap:hover:after { transform: scaleX(1) translateY(-2px);  transition: transform 1.5s ease-in-out; }
+.SearchbtnWrap{flex: 1;}
+.SearchbtnWrap>button{width: 100%;}
+.SearchBtn{opacity: .5; transition: .3s ease-in-out; width: 100%S;}
+.SearchBtn:hover{opacity: 1;}
+/* List */
+.List{margin-bottom: 40px;}
+.ListTitleWrap{display: flex; justify-content: space-between; align-items: end; height: 50px;}
+.SortWrap{position: relative;}
+.SortWrap::after{content: ''; display: block; position: absolute; right: 15px; top: 43%; width: 7px; height: 7px; border-width: 0 1px 1px 0; border-color: transparent #333 #333 transparent; border-style: solid; transform: translateY(-50%) rotate(45deg);}
+.SortList{margin-left: 20px; appearance: none; border: none; border-bottom: 1px solid #ddd; width: 100px; padding: 5px;font-size: 20px;}
+/* ITEM */
+.Item{margin-top: 30px;}
+.Item>div{width: 100%; border: 1px solid black; padding: 30px 50px;}
+.title{display: flex; align-items: center; margin-bottom: 20px;}
+.title>span{font-size: 20px; margin-left: 10px;}
+.content{display: flex; flex-direction: column;}
+.content>p{line-height: 1.5; letter-spacing: .2px;}
+.content>span{text-align: right; color: #555;}
+.itemBtnWrap{display: flex; justify-content: end; margin-top: 10px;}
+.itemBtnWrap>div{width: 35px; height: 35px; background-position: center center; background-size: cover; background-repeat: no-repeat; cursor: pointer;}
+.itemBtnWrap>div:last-of-type{margin-left: 20px;}
+.SaveBTN{background-image: url(./componnents/save.png);}
+.CancelBTN{background-image: url(./componnents/undo.png);}
+.EditBTN{background-image: url(./componnents/edit.png);}
+.RemoveBTN{background-image: url(./componnents/delete.png);}
+.editExplainTxt{width: 100%; font-size: 16px;}
+
+
+
+/* Write */
+.Write{height: 600px;}
+.Write>h1{margin-bottom: 50px; text-align: center;}
+.writeWrap{padding: 30px 50px; border: 1px solid black;}
+.wordWrap{display: flex; position: relative;}
+.wordWrap::after{content: ''; display: block; position: absolute; right: 15px; top: 43%; width: 10px; height: 10px; border-width: 0 1px 1px 0; border-color: transparent black black transparent; border-style: solid; transform: translateY(-50%) rotate(45deg);}
+.wordWrap>select{font-size: 24px; appearance: none; padding: 10px; width: 150px;}
+.wordWrap>input{width:calc(100% - 150px);font-size: 32px; appearance: none; border: none; border-bottom: 1px solid #ddd; padding: 10px;}
+.textWrap>textarea{width: 100%; font-size: 24px; appearance: none; border: none; border-bottom: 1px solid #ddd; padding: 10px; height: 200px;}
+.WriteSubmitWrap{display: flex;justify-content: end;}
+.WriteSubmitWrap>button{font-size: 20px; margin-top: 5px;}
