@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter as Routes, Route } from 'react-router-dom';
 import { useReducer, createContext, useCallback, useRef, useMemo, useState} from 'react';
 import Header from './componnents/layout/header';
 import Main from './componnents/main';
