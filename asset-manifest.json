@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Dictionary/static/css/main.551064b8.css",
-    "main.js": "/Dictionary/static/js/main.72eb0b89.js",
+    "main.css": "/Dictionary/static/css/main.2212efc8.css",
+    "main.js": "/Dictionary/static/js/main.c18e23ed.js",
     "static/media/edit.png": "/Dictionary/static/media/edit.6d763c163bff0302e547.png",
     "static/media/undo.png": "/Dictionary/static/media/undo.22c9d2b83ecd73c54158.png",
     "static/media/save.png": "/Dictionary/static/media/save.f1b3a1d07afa542cad3f.png",
     "static/media/delete.png": "/Dictionary/static/media/delete.78d4e3bf08f414ad5d9d.png",
     "index.html": "/Dictionary/index.html",
-    "main.551064b8.css.map": "/Dictionary/static/css/main.551064b8.css.map",
-    "main.72eb0b89.js.map": "/Dictionary/static/js/main.72eb0b89.js.map"
+    "main.2212efc8.css.map": "/Dictionary/static/css/main.2212efc8.css.map",
+    "main.c18e23ed.js.map": "/Dictionary/static/js/main.c18e23ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.551064b8.css",
-    "static/js/main.72eb0b89.js"
+    "static/css/main.2212efc8.css",
+    "static/js/main.c18e23ed.js"
   ]
 }
